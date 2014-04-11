@@ -1,0 +1,16 @@
+{
+  "author": "Modit, Inc",
+  "name": "webhook-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
