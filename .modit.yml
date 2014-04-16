@@ -1,0 +1,5 @@
+environment:
+  TEST: FOOBAR
+  
+links:
+  mongo: dockerfile/mongodb
