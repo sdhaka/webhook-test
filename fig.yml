@@ -1,7 +1,8 @@
 server1:
   build: server_1/
   command: npm start
-  links: mongo
+  links:
+    - mongo
   expose: 80
   environment:
     TEST: Server 1
@@ -9,7 +10,8 @@ server1:
 server2:
   build: server_2/
   command: npm start
-  links: mongo
+  links:
+    - mongo
   expose: 80
   environment:
     TEST: Server 2
