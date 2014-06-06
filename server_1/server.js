@@ -2,8 +2,8 @@ var express     = require('express')
   , app         = express()
   , mongoose    = require('mongoose')
   , fs          = require('fs');
-  
-app.get('/hello.txt', function(req, res){
+
+app.get('/', function(req, res){
   res.send('Hello World:' + process.env.TEST);
 });
 
