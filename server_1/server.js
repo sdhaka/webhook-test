@@ -4,7 +4,7 @@ var express     = require('express')
   , fs          = require('fs');
 
 app.get('/', function(req, res){
-  res.send('Hello World:' + process.env.TEST);
+  res.send('Hey world are you list\'nin\'!');
 });
 
 app.get('/empty', function(req, res){
