@@ -3,6 +3,8 @@ var express     = require('express')
   , mongoose    = require('mongoose')
   , fs          = require('fs');
 
+console.log(process.env);
+
 app.get('/', function(req, res){
   res.send('Hey world are you list\'nin\'!');
 });
